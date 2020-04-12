@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GymPass.Application\GymPass.Application.csproj" />
+    <ProjectReference Include="..\GymPass.Domain\GymPass.Domain.csproj" />
   </ItemGroup>
 
 </Project>
