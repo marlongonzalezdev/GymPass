@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FCFDF829-CA59-4E2B-A8C6-BE5F08438FAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4446DB48-985F-41EB-9F38-FE150F533745}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPass.API", "GymPass.API\GymPass.API.csproj", "{6FA5C9F1-8F9A-4BF5-8C42-BBECCA23E1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPass.Persistence", "GymPass.Persistence\GymPass.Persistence.csproj", "{51F22B15-B6BC-49E3-BE0C-5AED9B613747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPass.Domain", "GymPass.Domain\GymPass.Domain.csproj", "{937BEFD6-77C8-4CE1-B9CA-068A81052BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymPass.Application", "GymPass.Application\GymPass.Application.csproj", "{82952375-8249-4657-9F28-44C662757203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA5C9F1-8F9A-4BF5-8C42-BBECCA23E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA5C9F1-8F9A-4BF5-8C42-BBECCA23E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA5C9F1-8F9A-4BF5-8C42-BBECCA23E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA5C9F1-8F9A-4BF5-8C42-BBECCA23E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F22B15-B6BC-49E3-BE0C-5AED9B613747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F22B15-B6BC-49E3-BE0C-5AED9B613747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F22B15-B6BC-49E3-BE0C-5AED9B613747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F22B15-B6BC-49E3-BE0C-5AED9B613747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937BEFD6-77C8-4CE1-B9CA-068A81052BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937BEFD6-77C8-4CE1-B9CA-068A81052BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937BEFD6-77C8-4CE1-B9CA-068A81052BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937BEFD6-77C8-4CE1-B9CA-068A81052BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82952375-8249-4657-9F28-44C662757203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82952375-8249-4657-9F28-44C662757203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82952375-8249-4657-9F28-44C662757203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82952375-8249-4657-9F28-44C662757203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51F22B15-B6BC-49E3-BE0C-5AED9B613747} = {4446DB48-985F-41EB-9F38-FE150F533745}
+		{937BEFD6-77C8-4CE1-B9CA-068A81052BCD} = {FCFDF829-CA59-4E2B-A8C6-BE5F08438FAA}
+		{82952375-8249-4657-9F28-44C662757203} = {FCFDF829-CA59-4E2B-A8C6-BE5F08438FAA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2856D642-D46D-4B28-BFF5-7895B2C756F8}
+	EndGlobalSection
+EndGlobal
